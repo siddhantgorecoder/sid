@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cyber Blog</title>
+</head>
+<style>
+    body {
+        background-color: #A997DF;
+        margin-top: 1.5px;
+    }
+
+    header nav a {
+        text-decoration: none;
+        padding: 12px;
+        color: rgb(88, 202, 247);
+    }
+
+    header {
+        display: block;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        padding: 2px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+
+
+    }
+
+    header h1 {
+        color: red;
+    }
+
+    main p {
+        font-size: 25px;
+        position: flex;
+        background-color: rgb(115, 170, 196);
+        text-align: center;
+        animation-name: color;
+        animation-duration: 25s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes color {
+        0% {
+            color: rgb(149, 238, 97);
+        }
+
+        10% {
+            color: rgb(247, 72, 3)
+        }
+
+        20% {
+            color: rgb(72, 255, 0);
+        }
+
+        30% {
+            color: rgb(252, 1, 198);
+        }
+
+        40% {
+            color: rgb(153, 0, 0)
+        }
+
+        50% {
+            color: rgb(255, 0, 255)
+        }
+
+        80% {
+            background-color: rgb(245, 38, 38);
+        }
+    }
+
+    main section plan {
+        border: 8px solid pink;
+        border-radius: 25px;
+        width: 220px;
+        height: 300px;
+        padding: 40px;
+        display: inline-block;
+        position: inline;
+        align-content: center;
+        margin: 4px;
+    }
+
+    main section {
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    main section input {
+        color: orangered;
+        background-color: sandybrown;
+        padding: 15px;
+        width: 200px;
+        border-radius: 15px;
+
+    }
+
+    input:hover {
+        background-color: palegreen;
+        cursor: pointer;
+    }
+
+    main h2 {
+        font-size: 35px;
+    }
+
+    footer h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    footer {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+
+    footer2 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        color: saddlebrown;
+
+    }
+</style>
+
+<body>
+    <header style="background-image: url('iStock-1063965916-1250x585.jpg');">
+        <h1>The Cyber Blog</h1>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Labs</a>
+            <a href="">Videos</a>
+            <a href="">Articles</a>
+            <a href="">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <p>Hi guys,welcome to The Cyber Blog here you get the update of latest cyber security news new tools and
+            techniques of hacking on every day </p>
+
+        <h2 style="text-align: center;">Select Your Plan</h2><br>
+        <section class="plan">
+            <plan id="first" style="background: salmon;">
+                First Plan<br><br>
+
+                $120 Only<br><br>
+
+                Malware Analysis<br><br><br><br><br>
+
+                <input type="button" name="Pay Now" value="Pay Now">
+            </plan>
+            <plan id="second" style="background: salmon;">
+                Second Plan<br><br>
+
+                $1120 Only<br><br>
+
+                Malware Analysis + DOS Protection<br><br><br><br>
+
+                <input type="button" name="Pay Now" value="Pay Now">
+            </plan>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h1>Our Misssion</h1>
+            <mission class="f">
+                <p> We reduce the vulnerability of the digital environment implementing combined cyber-security and
+                    cyber-defense systems that neutralize advanced threats, thereby contributing to the improvement of
+                    security for all.</p>
+            </mission>
+        </section>
+    </footer>
+    <footer2>
+        <p>TCB &copy All Rights Reserved</p>
+    </footer2>
+
+</body>
+
+</html>
